@@ -1,0 +1,194 @@
+{
+  "settings": {
+    "name": "AYE",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#ffff05",
+        "#05bdff"
+      ]
+    },
+    "versionFirst": "4.3.0",
+    "uniqCompNum": 9,
+    "versionPublish": "4.3.0"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#05bdff",
+            "fontSize": "4",
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://vk.com/f1_ex1t\" target=\"_blank\">ВКонтакте</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://discord.gg/mXmTACT\" target=\"_blank\">Discord</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "4em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#05bdff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#00b0f0"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-117x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "",
+              "link": "",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Witch-HouseZ</a>",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/geometry1-1920x1080.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "<b>Project 775</b><br>",
+          "text": "Во избежания неприятных ситуаций, пожалуйста отключайте свой антиврус!<br>Т.к программа не добавлена в белые листы антивирусов(И не будет) - она определяет подозрительные действия, а именно скачку файлов с хостинга.<br>Будьте благоразумны, данный проект open-source, если вы сомниваетесь в чистоте \"кода\", он в открытом доступе.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://doshik.esy.es/Prog/Updater_Project775/Updater.rar\" data-toolbar=\"-mbrBtnMove\">Скачать Updater (v 1.0)<br>(Отключите антивирус!)<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://doshik.esy.es/Prog/Project775/Project.zip\" data-toolbar=\"-mbrBtnMove\">Скачать Project 775 (v 0.2rc)<br>(Стабильная)<br></a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-3",
+          "_styles": {
+            "B": {
+              "color": "#000000",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "100px"
+            },
+            "P": {
+              "color": "#dddddd",
+              "text-align": "center",
+              "font-size": "14px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Исходные файлы \"Updater (v 1.0)\";<br>Исходные файлы \"Project 775 (v 0.2rc)\".",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://doshik.esy.es/Prog/Project775/Source/Source_updater.rar\" data-toolbar=\"-mbrBtnMove\">Скачать Updater<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://doshik.esy.es/Prog/Project775/Source/Project775.rar\" data-toolbar=\"-mbrBtnMove\">Скачать Project &nbsp;&nbsp;<br></a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-5"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "images/footer-logo.png",
+              "width": 265,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "text2": "<strong>Contacts</strong><br>\nEmail: witch.housez@gmail.com<br>Discord:&nbsp;witch_housez#3175",
+          "text3": "<strong>Links</strong><ul><li><a href=\"http://doshik.esy.es/Prog/Project775/Project.zip\">Download for Windows</a></li></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-8"
+        }
+      ]
+    }
+  }
+}

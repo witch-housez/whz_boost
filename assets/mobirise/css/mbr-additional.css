@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+
+#dropdown-menu-2btn-2 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-2 .nav .link,
+#dropdown-menu-2btn-2 .dropdown-item {
+  font-size: 4em;
+  color: #000000;
+}
+#dropdown-menu-2btn-2 .navbar,
+#dropdown-menu-2btn-2 .dropdown-menu {
+  background: #05bdff;
+}
+#dropdown-menu-2btn-2 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-2 .dropdown-menu a:hover,
+#dropdown-menu-2btn-2 .dropdown-menu a:focus {
+  background: #00b0f0;
+}
+#dropdown-menu-2btn-2 .navbar-toggler {
+  color: #000000;
+}
+#header1-3 B {
+  color: #000000;
+  font-family: 'Lora', serif;
+  font-size: 100px;
+}
+#header1-3 P {
+  color: #dddddd;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
